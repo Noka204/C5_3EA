@@ -26,7 +26,7 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 /* menu */
 
-#menuPan{width:685px; height:38px; background:#f8dae8; position:relative;}
+#menuPan{width:685px; height:38px; background:#ffe0b2; position:relative;}
 
 #menuPan ul.menu{position:absolute; top:12px; left:33px; width:640px}
 #menuPan ul.menu li{height:16px; margin-right:28px; float:left}
