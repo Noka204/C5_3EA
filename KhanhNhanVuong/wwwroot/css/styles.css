@@ -1,5 +1,11 @@
 /* CSS Document */
-body{padding:0px; margin:0px; background:#fff; color:#616161; font:10px/14px Tahoma, sans-serif;}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+    color: #616161;
+    font: 11px/16px Tahoma, sans-serif;
+}
 div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
 ul{list-style-type:none;}
 
