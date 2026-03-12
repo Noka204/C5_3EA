@@ -79,7 +79,35 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 /* footer */
 
-#footer{height:49px; clear:both; width:775px; background:#e8f09c; margin: 0 auto}
+#footer {
+    height: 49px;
+    clear: both;
+    width: 775px;
+    background: #fce4ec;
+    margin: 0 auto
+}
 #footer p{padding: 10px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
 #footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
 #footer p a:hover{text-decoration:underline; color:#000}
+
+#socialBar {
+    width: 685px;
+    background: #f8dae8;
+    text-align: right;
+    padding: 3px 10px 3px 0;
+}
+
+#socialBar p {
+        font: 10px/16px Tahoma, sans-serif;
+        color: #9d1263;
+ }
+
+        #socialBar p a {
+            color: #9d1263;
+            text-decoration: none;
+            padding: 0 4px;
+        }
+
+            #socialBar p a:hover {
+                text-decoration: underline;
+            }
