@@ -79,6 +79,7 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 /* footer */
 
+<<<<<<< HEAD
 #footer {
     height: 49px;
     clear: both;
@@ -111,3 +112,19 @@ p a:hover{ color:#868e36; text-decoration:none;}
             #socialBar p a:hover {
                 text-decoration: underline;
             }
+#footer {
+    height: 49px;
+    clear: both;
+    width: 775px;
+    background: #c8e6c9;
+    margin: 0 auto
+}
+#footer p{padding: 10px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
+#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#000}
+/* banner */
+#banner{width:685px; background:#fff0f5; border-bottom:1px solid #f8b4cf; text-align:center; padding:5px 0;}
+#banner p{font:10px/18px Tahoma, sans-serif; color:#9d1263; margin:0;}
+#banner p:first-child{font-weight:bold;}
+#banner p:last-child{color:#868e36;}
+
