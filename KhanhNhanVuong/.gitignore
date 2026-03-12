@@ -1,0 +1,15 @@
+@"
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+"@ | Out-File -Encoding utf8 .gitignore

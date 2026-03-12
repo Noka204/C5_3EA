@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"] - Floral Shop</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="~/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div id="container">
+        <div id="topLine"></div>
+
+        <div id="logoPan">
+            <img src="~/images/logo.gif" width="192" height="92" alt="Logo" id="logo" />
+            <img src="~/images/slogan.gif" width="297" height="46" alt="Slogan" id="slogan" />
+        </div>
+
+        <div id="menuPan">
+            <ul class="menu">
+                <li class="btn_1"><a href="/">Trang Chủ</a></li>
+                <li class="line"></li>
+                <li class="btn_2"><a href="/Home/About">Giới Thiệu</a></li>
+                <li class="line"></li>
+                <li class="btn_3"><a href="/Home/Products">Sản Phẩm</a></li>
+                <li class="line"></li>
+                <li class="btn_4"><a href="/Home/Specials">Khuyến Mãi</a></li>
+                <li class="line"></li>
+                <li class="btn_5"><a href="/Home/Contact">Liên Hệ</a></li>
+            </ul>
+        </div>
+
+        <div id="header">
+            <img src="~/images/slogan2.gif" width="192" height="70" alt="Slogan2" id="slogan2" />
+        </div>
+
+        <div id="content">
+            @RenderBody()
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <p>
+            <a href="/">TRANG CHỦ</a> |
+            <a href="/Home/About">GIỚI THIỆU</a> |
+            <a href="/Home/Products">SẢN PHẨM</a> |
+            <a href="/Home/Specials">KHUYẾN MÃI</a> |
+            <a href="/Home/Contact">LIÊN HỆ</a><br />
+            Copyright &copy; 2024 Floral Shop
+        </p>
+    </div>
+
+</body>
+</html>
