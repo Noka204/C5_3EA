@@ -1,5 +1,11 @@
 /* CSS Document */
-body{padding:0px; margin:0px; background:#fff; color:#616161; font:10px/14px Tahoma, sans-serif;}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+    color: #616161;
+    font: 11px/16px Tahoma, sans-serif;
+}
 div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
 ul{list-style-type:none;}
 
@@ -79,7 +85,52 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 /* footer */
 
-#footer{height:49px; clear:both; width:775px; background:#e8f09c; margin: 0 auto}
+<<<<<<< HEAD
+#footer {
+    height: 49px;
+    clear: both;
+    width: 775px;
+    background: #fce4ec;
+    margin: 0 auto
+}
 #footer p{padding: 10px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
 #footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
 #footer p a:hover{text-decoration:underline; color:#000}
+
+#socialBar {
+    width: 685px;
+    background: #f8dae8;
+    text-align: right;
+    padding: 3px 10px 3px 0;
+}
+
+#socialBar p {
+        font: 10px/16px Tahoma, sans-serif;
+        color: #9d1263;
+ }
+
+        #socialBar p a {
+            color: #9d1263;
+            text-decoration: none;
+            padding: 0 4px;
+        }
+
+            #socialBar p a:hover {
+                text-decoration: underline;
+            }
+#footer {
+    height: 49px;
+    clear: both;
+    width: 775px;
+    background: #c8e6c9;
+    margin: 0 auto
+}
+#footer p{padding: 10px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
+#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#000}
+/* banner */
+#banner{width:685px; background:#fff0f5; border-bottom:1px solid #f8b4cf; text-align:center; padding:5px 0;}
+#banner p{font:10px/18px Tahoma, sans-serif; color:#9d1263; margin:0;}
+#banner p:first-child{font-weight:bold;}
+#banner p:last-child{color:#868e36;}
+
